@@ -1,16 +1,110 @@
-# React + Vite
+# 🏋️ Fitness Sports Center
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive fitness center website built with React + Vite and CSS, based on a Figma design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🖥️ Live Sections
 
-## React Compiler
+- Navbar (responsive hamburger menu)
+- Hero (full viewport)
+- About (Who We Are, Vision, Mission)
+- Services (6 service cards)
+- Client Reviews (slider)
+- Meet Our Trainers (4 trainer cards)
+- Packages (6 membership plans)
+- Contact (form with success message)
+- Footer (address, map, social links)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology     | Version   | Purpose                        |
+|----------------|-----------|--------------------------------|
+| React          | ^19.x     | UI component library           |
+| Vite           | ^6.x      | Build tool and dev server      |
+| Plain CSS      | —         | Custom styles in App.css       |
+
+
+---
+
+## 📁 Folder Structure
+
+```
+Fitness-Sports-Center/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── sections/
+│   │       ├── Navbar.jsx
+│   │       ├── Hero.jsx
+│   │       ├── About.jsx
+│   │       ├── Services.jsx
+│   │       ├── Reviews.jsx
+│   │       ├── Trainers.jsx
+│   │       ├── Packages.jsx
+│   │       ├── Contact.jsx
+│   │       └── Footer.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/fitness-sports-center.git
+cd fitness-sports-center
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Then open your browser and go to:
+
+```
+http://localhost:5173
+```
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+### 5. Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+
+
+
+## 📄 Figma Design
+(https://www.figma.com/design/a6UoAfunCXJMs3jC90DNnR/Fitness-Sports-Center?node-id=0-1&t=X0MhUvvOMMkeu4zt-1)
+
+## 📄 Live Link
+(https://fitness-sports-center-teal.vercel.app/)
+
