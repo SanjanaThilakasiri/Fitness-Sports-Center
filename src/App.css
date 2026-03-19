@@ -159,11 +159,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to right, rgba(0,0,0,0.85) 20%, rgba(0,0,0,0.3) 20%);
-}
+
 
 .hero-content {
   position: relative;
@@ -223,9 +219,6 @@ body {
     background-position: right center;
   }
 
-  .hero-overlay {
-    background: rgba(0, 0, 0, 0.75);
-  }
 
   .hero-content {
     padding: 0 20px;
