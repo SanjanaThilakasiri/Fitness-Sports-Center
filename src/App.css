@@ -706,6 +706,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.package-card:hover {
+  cursor: pointer;
+  transform: translateY(-6px);
+  border-color: #EFB61E;
+  box-shadow: 0 8px 24px #EFB61E;
 }
 
 .package-icon {
