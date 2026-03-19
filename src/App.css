@@ -13,13 +13,15 @@ body {
 
 /*Navbar*/
 .navbar {
-  background-color: transparent;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 999;
-  padding: 16px 0;
+  padding: 10px 0;
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 
 .navbar-container {
@@ -32,7 +34,7 @@ body {
 }
 
 .navbar-logo {
-  height: 70px;
+  height: 50px;
   width: auto;
 }
 
@@ -50,7 +52,11 @@ body {
 }
 
 .navbar-link:hover {
-  color: #D4A017;
+  color: #EFB61E;
+}
+
+.navbar-link:active {
+  color: #FDD46B;
 }
 
 /*Responsive Navbar*/
@@ -105,7 +111,7 @@ body {
   list-style: none;
   background-color: #000000;
   padding: 16px 20px;
-  border-top: 1px solid #222;
+  border-top: 1px solid #2C2C2C;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -119,7 +125,11 @@ body {
 }
 
 .mobile-link:hover {
-  color: #D4A017;
+  color: #EFB61E;
+}
+
+.mobile-link:hover {
+  color: #FDD46B;
 }
 
 @media (max-width: 768px) {
