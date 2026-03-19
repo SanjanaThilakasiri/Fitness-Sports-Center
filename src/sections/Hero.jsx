@@ -23,7 +23,7 @@ export default function Hero() {
           Elite training programs designed to push your limits
           and reveal your true strength.
         </p>
-        <a href="#about" className="hero-btn">Join Now</a>
+        <a href="#packages" className="hero-btn">Join Now</a>
       </div>
 
     </section>
