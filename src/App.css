@@ -405,3 +405,156 @@ body {
     margin-bottom: 32px;
   }
 }
+
+/* Reviews */
+.reviews {
+  background-color: #2C2C2C;
+  padding: 80px 0;
+}
+
+.reviews-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.reviews-heading {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #D4A017;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.reviews-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.reviews-arrow {
+  background: none;
+  border: 1px solid #D4A017;
+  color: #D4A017;
+  font-size: 20px;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.reviews-arrow:hover {
+  background-color: #EFB61E;
+  border-color: #EFB61E;
+  color: #000000;
+}
+.reviews-arrow:active {
+  background-color: #FDD46B;
+  border-color: #FDD46B;
+  color: #000000;
+}
+
+.review-card {
+  background-color: #2C2C2C;
+  border: 1px solid #D4A017;
+  padding: 40px 32px;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.review-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #D4A017;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.review-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.8;
+}
+
+/* Dots */
+.reviews-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.reviews-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  cursor: pointer;
+}
+
+.reviews-dot.active {
+  background-color: #D4A017;
+}
+
+/* Responsive reviews */
+@media (max-width: 1024px) {
+  .reviews-container {
+    padding: 0 24px;
+  }
+
+  .review-card {
+    padding: 32px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviews {
+    padding: 48px 0;
+  }
+
+  .reviews-container {
+    padding: 0 16px;
+  }
+
+  .reviews-heading {
+    font-size: 22px;
+    margin-bottom: 32px;
+  }
+
+  .reviews-slider {
+    gap: 12px;
+  }
+
+  .reviews-arrow {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .review-card {
+    padding: 24px 16px;
+  }
+
+  .review-text {
+    font-size: 12px;
+  }
+}
