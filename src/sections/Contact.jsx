@@ -82,11 +82,11 @@ export default function Contact() {
             />
           </div>
 
-          <button type="submit" className="contact-btn">
+      <button type="submit" className="contact-btn">
             Submit
           </button>
-
         </form>
+        
 
       </div>
     </section>
