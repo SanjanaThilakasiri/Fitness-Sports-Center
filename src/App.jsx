@@ -9,6 +9,7 @@ import Trainers from "./sections/Trainers";
 import Packages from "./sections/Packages";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import "./App.css";
 
 function App() {
   return (

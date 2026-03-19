@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+:root {
+  --gold: #c9a84c;
+  --gold-light: #e8c76a;
+  --dark: #0a0a0a;
+  --dark-2: #111111;
+  --dark-3: #1a1a1a;
+  --text-light: #f0f0f0;
+  --text-muted: #aaaaaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--dark);
+  color: var(--text-light);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
+}
