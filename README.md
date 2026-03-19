@@ -101,20 +101,10 @@ npm run preview
 
 
 
-## 📱 Responsive Breakpoints
-
-| Breakpoint   | Screen Size     |
-|--------------|-----------------|
-| Desktop      | 1025px and above|
-| Tablet       | 769px – 1024px  |
-| Mobile       | 480px and below |
-
----
-
 
 ## 📄 Figma Design
 (https://www.figma.com/design/a6UoAfunCXJMs3jC90DNnR/Fitness-Sports-Center?node-id=0-1&t=X0MhUvvOMMkeu4zt-1)
 
 ## 📄 Live Link
-( )
+(https://fitness-sports-center-teal.vercel.app/)
 
