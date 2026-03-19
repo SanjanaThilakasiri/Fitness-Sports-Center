@@ -112,5 +112,9 @@ npm run preview
 ---
 
 
+## 📄 Figma Design
+(https://www.figma.com/design/a6UoAfunCXJMs3jC90DNnR/Fitness-Sports-Center?node-id=0-1&t=X0MhUvvOMMkeu4zt-1)
+
 ## 📄 Live Link
+( )
 
